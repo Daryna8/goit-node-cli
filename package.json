@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
@@ -19,7 +20,8 @@
   },
   "homepage": "https://github.com/Daryna8/goit-node-cli#readme",
   "dependencies": {
-    "commander": "^11.1.0"
+    "commander": "^11.1.0",
+    "nanoid": "^5.0.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
